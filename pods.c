@@ -44,9 +44,5 @@ int main(void){
 	sort(arr, n, k);
 	t = wtime() - t;
 
-	for (int i = 0; i < n; i++){
-		printf("%d ",arr[i]);
-	}
-	printf("\n");
 	printf("Elapsed time: %.6f sec.\n", t);
 }

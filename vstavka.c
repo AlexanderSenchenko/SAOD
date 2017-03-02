@@ -38,10 +38,7 @@ int main()
 		}
 	}
 	t = wtime() - t;
-	for(i=0; i < n; i++){
-		printf("%3d ", mass[i]);
-	}
-	printf("\n");
+
 	printf("Elapsed time: %.6f sec.\n", t);
 	return 0;
 }
